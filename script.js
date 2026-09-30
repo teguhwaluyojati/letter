@@ -32,10 +32,10 @@ setHeroSlide(heroSlideIndex);
 window.setInterval(() => {
   heroSlideIndex = (heroSlideIndex + 1) % heroSlides.length;
   if (typeof heroPhoto.animate === 'function') {
-    heroPhoto.animate([{ opacity: 1 }, { opacity: .2 }, { opacity: 1 }], { duration: 700, easing: 'ease-in-out' });
+    heroPhoto.animate([{ opacity: 1 }, { opacity: .08 }, { opacity: 1 }], { duration: 1400, easing: 'ease-in-out' });
   }
-  window.setTimeout(() => setHeroSlide(heroSlideIndex), 300);
-}, 2000);
+  window.setTimeout(() => setHeroSlide(heroSlideIndex), 700);
+}, 5000);
 
 bgMusic.volume = 0.45;
 
