@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101827" />
+  <title>Untuk Kamu, Selamanya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hero-photo { background-image: linear-gradient(160deg, rgba(228, 110, 85, .16), transparent 55%), url('assets/photos/1.jpg'); }
+  </style>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Kembali ke atas"><span>06</span> tahun &amp; seterusnya</a>
+    <button class="music-toggle" type="button" aria-pressed="false"><span class="music-dot"></span><span class="music-label">musik kita</span></button>
+  </header>
+  <audio id="bgMusic" autoplay loop preload="auto">
+    <source src="assets/song.mp3" type="audio/mpeg" />
+  </audio>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Sebuah surat kecil untuk hari istimewa</p>
+        <h1>Happy birthday,<br /><em>my favorite person.</em></h1>
+        <p class="hero-note">Enam tahun berlalu, dan setiap harinya masih terasa seperti menemukan rumah yang sama.</p>
+        <a class="scroll-cue" href="#letter"><span class="scroll-line"></span> buka perlahan</a>
+      </div>
+      <div class="hero-stamp reveal reveal-delay" aria-hidden="true">
+        <span>since</span><strong>2020</strong><span>with love</span>
+      </div>
+      <div class="hero-photo reveal reveal-delay-2" aria-label="Foto kenangan kita" role="img"></div>
+      <div class="hero-index" aria-hidden="true">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="letter section-shell" id="letter">
+      <div class="section-kicker"><span>01</span><span>the letter</span></div>
+      <div class="letter-layout">
+        <div class="letter-heading reveal"><p class="eyebrow">Untuk seseorang yang selalu pulang</p><h2>Dear<br /><em>you,</em></h2></div>
+        <div class="letter-body reveal reveal-delay">
+          <p class="lead">Selamat ulang tahun untuk orang yang membuat hari-hari biasa terasa layak dirayakan.</p>
+          <p>Terima kasih sudah hadir dengan segala versi dirimu. Terima kasih untuk tawa yang kita bagi, untuk sabar yang tidak selalu mudah, dan untuk enam tahun yang diam-diam mengajarkan bahwa dicintai bisa terasa setenang ini.</p>
+          <p>Aku tidak tahu persis seperti apa hari-hari di depan kita. Tapi aku tahu, aku ingin menjalaninya bersamamu. Hari ini, besok, dan semua tanggal kecil yang belum kita tulis.</p>
+          <p class="signature">Love always,<br /><em>your person</em> <span>♡</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline section-shell">
+      <div class="section-kicker"><span>02</span><span>our little archive</span></div>
+      <div class="timeline-head"><h2>Six years of<br /><em>us.</em></h2></div>
+      <div class="milestones">
+        <article class="milestone reveal"><span class="year">2020</span><span class="marker"></span><div><h3>the beginning</h3><p>Hari pertama dari semua “kita” yang belum kita tahu akan sepanjang ini.</p></div></article>
+        <article class="milestone reveal reveal-delay"><span class="year">2022</span><span class="marker"></span><div><h3>growing together</h3><p>Belajar bertumbuh tanpa kehilangan alasan untuk saling memilih.</p></div></article>
+        <article class="milestone reveal reveal-delay-2"><span class="year">2026</span><span class="marker"></span><div><h3>still my favorite</h3><p>Enam tahun kemudian, jawabannya masih kamu. Selalu kamu.</p></div></article>
+      </div>
+    </section>
+
+    <section class="closing section-shell">
+      <div class="closing-card reveal">
+        <p class="eyebrow">A little reminder</p><h2>Wherever life takes us,<br /><em>I choose you.</em></h2>
+        <button class="open-note" type="button">buka pesan rahasia <span>↗</span></button>
+      </div>
+      <p class="closing-foot">dibuat dengan banyak cinta <span>·</span> 01.10.2026</p>
+    </section>
+  </main>
+  <div class="secret-note" role="dialog" aria-modal="true" aria-labelledby="secret-title" hidden>
+    <div class="note-book">
+      <div class="note-paper page-current" data-page="1">
+        <button class="close-note" type="button" aria-label="Tutup pesan">×</button>
+        <p class="eyebrow">Untuk Rizka Oktaviani</p>
+        <h2 id="secret-title">Selamat Mengulang Kembali<br /><em>ke-27, sayang.</em></h2>
+        <p>Enam tahun bukan waktu yang sebentar. Kalau dipikir-pikir, kita sudah melewati begitu banyak hal bersama.</p>
+        <p>Ada hari-hari yang menyenangkan, ada juga hari-hari yang mungkin tidak ingin kita ulang lagi. Kita pernah tertawa karena hal-hal kecil, pernah berbeda pendapat, pernah sama-sama lelah, bahkan mungkin pernah bertanya-tanya akan seperti apa perjalanan kita ke depannya.</p>
+        <span class="note-heart">♡</span>
+        <span class="page-number">01</span>
+      </div>
+      <div class="note-paper page-next" data-page="2">
+        <button class="close-note" type="button" aria-label="Tutup pesan">×</button>
+        <p class="eyebrow">halaman berikutnya</p>
+        <h2>Tapi satu hal<br /><em>yang selalu membuatku bersyukur adalah...</em></h2>
+        <p>setelah semua yang kita lewati, sampai hari ini aku masih bisa berdiri di samping kamu dan melihat kamu bertumbuh menjadi seseorang yang semakin dewasa.</p>
+        <h2><em>Sekarang kamu sudah 27 tahun.</em></h2>
+        <p>Mungkin umur 27 terdengar seperti angka biasa, tapi aku tahu semakin bertambah umur, semakin banyak juga hal yang kamu pikirkan. Tentang masa depan, tentang pekerjaan, tentang keluarga, tentang mimpi-mimpi yang ingin kamu wujudkan, dan mungkin tentang hal-hal yang kadang membuat kamu takut apakah semuanya akan berjalan sesuai rencana.</p>
+        <span class="page-number">02</span>
+      </div>
+      <div class="note-paper page-next" data-page="3">
+        <button class="close-note" type="button" aria-label="Tutup pesan">×</button>
+        <p class="eyebrow">halaman berikutnya</p>
+        <h2>Kamu tidak sedang<br /><em>berlomba dengan siapapun.</em></h2>
+        <p>Kamu punya jalanmu sendiri.<br>
+        Tidak apa-apa kalau ada sesuatu yang belum tercapai. Tidak apa-apa kalau sesekali kamu merasa lelah. Tidak apa-apa kalau kamu belum tahu harus melangkah ke mana. Yang penting, jangan pernah berpikir bahwa semua perjuanganmu selama ini tidak berarti.</p>
+        <h2>Aku melihat bagaimana kamu terus berusaha.</h2>
+        <span class="page-number">03</span>
+      </div>
+      <div class="note-paper page-next" data-page="4">
+        <button class="close-note" type="button" aria-label="Tutup pesan">×</button>
+        <p class="eyebrow">halaman berikutnya</p>
+        <h2><em>Dan aku bangga sama kamu.</em></h2>
+        <p>Di usia 27 ini, aku berharap kamu lebih banyak menemukan alasan untuk bahagia. Semoga kamu semakin berani mengejar apa yang kamu inginkan, semakin percaya dengan kemampuanmu sendiri, dan tidak terlalu keras kepada dirimu sendiri ketika sesuatu tidak berjalan sesuai harapan.<br>Kalau nanti dunia terasa terlalu berat, semoga kamu selalu ingat bahwa kamu tidak harus menghadapi semuanya sendirian.<br>Aku mungkin tidak selalu punya jawaban untuk semua masalahmu. Aku juga mungkin masih sering melakukan kesalahan dan belum menjadi pasangan yang sempurna. Tapi selama kamu masih mengizinkanku berada di sisimu, aku ingin terus belajar menjadi seseorang yang bisa kamu percaya, tempat kamu pulang, dan orang yang ikut merayakan setiap pencapaian kecil maupun besar dalam hidupmu.</p>
+        <span class="page-number">04</span>
+      </div>
+      <div class="note-paper page-next" data-page="5">
+        <button class="close-note" type="button" aria-label="Tutup pesan">×</button>
+        <p class="eyebrow">halaman terakhir</p>
+        <p>Enam tahun bersamamu mengajarkanku bahwa mencintai seseorang bukan cuma tentang berada di sampingnya ketika semuanya mudah. Tapi juga tentang memilih untuk tetap tinggal, memahami, bertumbuh, dan saling menguatkan ketika hidup sedang tidak baik-baik saja.<br>Terima kasih sudah menjadi bagian besar dari hidupku selama enam tahun ini.<br>Dan untuk semua hal yang belum kita lalui, semoga kita masih punya banyak waktu untuk membuat cerita-cerita baru.</p>
+        <h2><em>Selamat ulang tahun, Rizka.</em></h2>
+        <p class="page-prompt">with love, always<br /><span>♡</span></p>
+        <span class="page-number">05</span>
+      </div>
+      <div class="note-controls">
+        <button class="page-button prev-page" type="button" aria-label="Kembali ke halaman sebelumnya" disabled>←</button>
+        <span class="page-count"><strong>01</strong> / 05</span>
+        <button class="page-button next-page" type="button" aria-label="Buka halaman berikutnya">→</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
