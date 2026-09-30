@@ -61,6 +61,7 @@ function closeSecretNote() {
 }
 
 openNote.addEventListener('click', () => {
+  tryStartMusic();
   note.hidden = false;
   showPage(1, false);
   document.body.style.overflow = 'hidden';
